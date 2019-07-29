@@ -1,0 +1,12 @@
+cd dir    #进入git目录
+git config --global user.name 'XX'
+git config --global user.email 'XX@XX'
+git congfig -l     #查看配置信息
+git init	#初始化目录
+git remote add origin HTTPS	#关联远程仓库
+git status    #查看本地的修改信息记录
+
+git add *
+git commit -m 'XX'    #准备把本地修改信息推送到远端，这是描述信息
+
+git push -u origin master    #提交更新请求
